@@ -13,7 +13,7 @@ function Daireler(specs: dairelerSpecs) {
   return (
     <div className='row' >
         {
-            specs.states.map(data=>{
+            array.map(data=>{
                 return <Daire clr={specs.clr} bgStatus={data}/>
             })
         }
